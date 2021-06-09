@@ -1,3 +1,71 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover {
+	color: inherit;
+}
+
 .my-banner {
 	background-color: red;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.red-underlined-link:hover {
+	text-decoration: underline red;
+}
+.card {
+	border: none;
+}
+
+.my-card-overlay-container {
+	position: relative;
+}
+
+.my-overlay {
+	top: unset;
+}
+
+.my-overlay h2 {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	background-color: rgba(255, 255, 255, 0.836);
+}
+
+.tag {
+	color: red;
+	padding: 0 5px;
+}
+.tag:hover {
+	color: red;
+}
+
+.vs-rule {
+	background: white;
+	border: 1px double black;
+	border-left: none;
+	border-right: none;
+	padding: 1px;
+	opacity: 1;
+}
+
+.vs-rule::after {
+	content: 'VS';
+	display: inline-block;
+	background: black;
+	padding: 0 3px;
+	border-radius: 50px;
+	color: white;
+	position: relative;
+	top: -10px;
+	left: calc(50% - 7px);
+	font-size: 16px;
+}
+
+.separator {
+	border: 2px solid;
 }
