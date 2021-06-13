@@ -69,3 +69,40 @@ a {
 .separator {
 	border: 2px solid;
 }
+
+.more-stories-card {
+	display: block;
+	margin: 10px 0;
+}
+
+.float-image-card {
+	width: 95px;
+	height: 95px;
+	margin-right: 10px;
+	float: left;
+	clear: both;
+}
+
+#main-nav li a {
+	color: black;
+	font-weight: 900;
+}
+
+.full-width {
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	#banner-buttons {
+		width: 40% !important;
+	}
+}
+
+@media (max-width: 768px) {
+	#banner-buttons {
+		width: 60% !important;
+	}
+	#subscribe-btn {
+		font-size: 12px !important;
+	}
+}
