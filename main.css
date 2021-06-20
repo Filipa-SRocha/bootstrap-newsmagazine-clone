@@ -122,9 +122,24 @@ a {
 
 @media (max-width: 768px) {
 	#banner-buttons {
-		width: 60% !important;
+		min-width: 55% !important;
 	}
 	#subscribe-btn {
 		font-size: 12px !important;
+	}
+}
+
+@media (max-width: 576px) {
+	#subscribe-btn {
+		font-size: 10px !important;
+	}
+	#login-link {
+		margin-right: 10px !important;
+	}
+	#banner-buttons {
+		padding-right: 0 !important;
+	}
+	.navbar-brand {
+		margin-right: 0;
 	}
 }
