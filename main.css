@@ -114,6 +114,10 @@ a {
 	background: black url('./resources/free-newsletters.jpg') no-repeat scroll
 		center center/ cover;
 }
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
 @media (max-width: 992px) {
 	#banner-buttons {
 		width: 40% !important;
