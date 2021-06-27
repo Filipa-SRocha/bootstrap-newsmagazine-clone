@@ -74,7 +74,6 @@ a {
 	top: -10px;
 	left: calc(50% - 7px);
 	font-size: 16px;
-	z-index: 99;
 }
 
 .separator {
