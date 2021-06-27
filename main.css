@@ -7,6 +7,10 @@ a:hover {
 	color: inherit;
 }
 
+.red-on-hover:hover {
+	color: red !important;
+}
+
 .red-background {
 	background-color: red;
 }
